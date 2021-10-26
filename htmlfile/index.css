@@ -1,3 +1,8 @@
+.body{
+  max-width: 1200px;
+
+}
+
 h1.head1 {
   width:100%;
   height: 80px;
@@ -18,9 +23,19 @@ h1.head2 {
   margin-bottom: 50vh;
 }
 
-div.body1 {
- margin-left:20vh;
- margin-right:20vh;
+p{
+ font-size: 20px;
+}
+
+.body1{
+  display: flex;
+  padding: 10px;
+  /* margin-left:20vh;
+  margin-right:20vh; */
+}
+
+.maincontent{
+  margin: 100px;
 }
 
 h2{
@@ -35,21 +50,15 @@ h2{
   margin-bottom: 50vh; */
 }
 
-.hobby{
-  display: flex;
-  padding: 10px;
-}
-
-.hobby{
-  width: 50%;
-  margin: 10px;
-  padding: 10px;
-}
+.hobbysing{
+  bottom: 10px;
+  }
 
 .hobbys{
   display: flex;
   padding: 10px;
 }
+
 
 .hobbys div {
   width: 50%;
@@ -57,3 +66,9 @@ h2{
   padding: 10px;
 }
 
+
+.twitter-timeline {
+position:absolute;
+top: 280px;
+left: 280px;
+}
