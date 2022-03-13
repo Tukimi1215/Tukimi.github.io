@@ -1,0 +1,14 @@
+.main{
+  position: static;
+}
+
+.title{
+  text-align: center;
+  z-index: 1;
+}
+
+.mainHead{
+  text-align: center;
+  position: relative;
+ top: 100px;
+}
